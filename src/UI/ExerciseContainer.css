@@ -1,0 +1,40 @@
+.wrapper {
+  margin-top: 2rem;
+  width: 780px;
+  min-width: 480px;
+  max-width: 1200px;
+  background-color: rgba(234, 236, 231, 0.792);
+  border-radius: 20px;
+  box-shadow: 0 1px 8px rgba(93, 186, 233, 0.911);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 15.3rem;
+  height: 3.5rem;
+  border-radius: 18px;
+  border: none;
+  background-color: royalblue;
+}
+.button:hover {
+  background-color: dodgerblue;
+}
+.buttonClose {
+  width: 15.3rem;
+  height: 2rem;
+  border-radius: 18px;
+  border: none;
+  background-color: royalblue;
+}
+.buttonClose:hover {
+  background-color: dodgerblue;
+}
+
+.exercise {
+  width: 100%;
+  display: block;
+}
+.exerciseBody {
+  width: 100%;
+}

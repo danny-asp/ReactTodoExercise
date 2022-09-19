@@ -1,0 +1,17 @@
+.todo-form {
+  width: 750px;
+}
+.todo-input {
+  width: 450px;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(181, 169, 101);
+  padding: 0;
+}
+.todo-input:focus {
+  outline: none;
+  background-color: rgb(239, 227, 161);
+}

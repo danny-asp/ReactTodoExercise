@@ -1,0 +1,33 @@
+.done {
+  background-color: rgb(163, 237, 163);
+  margin: 0.5rem 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+.inProgres {
+  background-color: rgb(234, 126, 126);
+  margin: 0.5rem 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+.task-name {
+  font-weight: bold;
+}
+
+.todo-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin-left: 2rem;
+}
+.todo-icon {
+  width: 1.6rem;
+}

@@ -1,0 +1,42 @@
+.weatherCardWrapper {
+  width: 100%;
+  height: 300px;
+  background-color: bisque;
+  border-radius: 20px;
+  margin: 0, 0.2rem;
+  justify-content: space-around;
+}
+.weatherHeader {
+  width: 100%;
+  display: inline-flex;
+  padding: 1rem;
+}
+
+.headerLeft {
+  width: 75%;
+  text-align: left;
+  padding-left: 3rem;
+}
+.cityName {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.temperature {
+  font-size: 4.3rem;
+  font-weight: 700;
+}
+
+.headerRight {
+  width: auto;
+  padding-right: 3rem;
+}
+
+main {
+  margin-top: 2rem;
+}
+.weather-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin: 0 1rem;
+}

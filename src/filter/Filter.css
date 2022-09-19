@@ -1,0 +1,36 @@
+.filterWrap {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterInputField {
+  font-family: inherit;
+  width: 45%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  text-align: center;
+}
+.filterInputField:focus {
+  color: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+}
+.listOfAnimals {
+  width: 100%;
+  list-style: none;
+  grid-row: auto;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.listElement {
+  margin: 1.2rem 0.8rem 1.2rem 0;
+}
